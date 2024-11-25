@@ -1,0 +1,5 @@
+as asm3.s -o asm.o
+
+gcc -o asm asm.o -nostdlib -no-pie
+
+./asm
